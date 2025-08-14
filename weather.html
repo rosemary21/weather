@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CHUKELU CHIOMA WEATHER CHECK</title>
+  <link rel="stylesheet" href="weather.css" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="chiomaweather" id="weather-card">
+            <h2 class="text-2xl font-bold mb-2">CHIOMA WEATHER INFORMATION</h2>
+            <div class="mb-4">
+      <input type="text" id="locationInput" placeholder="Enter Location" class="border p-2 rounded w-full" />
+      <button id="fetchWeather" class="bg-pink-500 text-white px-4 py-2 mt-2 rounded hover:bg-pink-600 w-full">
+        Get Weather
+      </button>
+    </div>
+    <div id="lcationWeather" class="text-gray-700">
+      <p class="text-sm">Enter Location to get current Weather Information.</p>
+    </div>
+  </div>
+
+ <script src="weatherapi.js"></script>
+
+
+   </body>
+</head>
+
+</html>
